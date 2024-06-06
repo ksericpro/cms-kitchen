@@ -73,3 +73,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 https://www.youtube.com/watch?v=yqe5UB_BF7Q
 
 https://www.youtube.com/watch?v=AWie7zwAyU0
+
+https://codesandbox.io/p/sandbox/contentful-api-3lc0j?file=%2Fsrc%2Findex.js

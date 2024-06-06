@@ -1,12 +1,35 @@
 import Carousel from "./components/Carousel/Carousel";
-
+import styled from "styled-components";
 function App() {
   return (
-    <div className="App">
+    <Wrapper>
+      <TitleWrapper>
         <h1>Welcome to Eric's Kitchen</h1>
-        <Carousel/>
-    </div>
+        <p>Menu</p>
+      </TitleWrapper>
+        
+      <Carousel/>
+    </Wrapper>
   );
 }
 
 export default App;
+
+
+const Wrapper = styled.div`
+  font-family: "Roboto";
+  margin: 40px;
+
+  display: grid;
+  row-gap: 20px;
+  justify-content: center;
+`;
+
+const TitleWrapper = styled.div`
+  * {
+    margin: 0;
+  }
+
+  display: grid;
+  row-gap: 10px;
+`;

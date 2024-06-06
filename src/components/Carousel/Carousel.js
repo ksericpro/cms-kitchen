@@ -32,7 +32,11 @@ const Carousel = () => {
     const getCarouselSlides = useCallback(async () =>{
         setIsCarouselLoading(true)
         try {
-            const response = await client.getEntries({ content_type: 'kitchenCarousel'})
+            const response = await client.getEntries({ 
+                content_type: 'kitchenCarousel', 
+                select: 'fields',
+              //  order: 'fields.title'
+            })
             const responseData = response.items
             console.log("responseData=",responseData)
             if (responseData){
