@@ -4,8 +4,8 @@ function App() {
   return (
     <Wrapper>
       <TitleWrapper>
-        <h1>Welcome to Eric's Kitchen</h1>
-        <p>Menu</p>
+        <h1>Welcome to King's Kitchen</h1>
+        <p>-Main Course-</p>
       </TitleWrapper>
         
       <Carousel/>
